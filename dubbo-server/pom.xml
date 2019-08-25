@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.xzx</groupId>
+		<artifactId>dubbo-master-server</artifactId>
+		<version>1.0-SNATSHOP</version>
+	</parent>
+	<artifactId>dubbo-server</artifactId>
+	<name>dubbo-server</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.xzx</groupId>
+			<artifactId>dubbo-manager</artifactId>
+			<version>1.0-SNATSHOP</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xzx</groupId>
+			<artifactId>dubbo-api</artifactId>
+			<version>1.0-SNATSHOP</version>
+		</dependency>
+
+		<!--spring-->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+		</dependency>
+		<!--aspect-->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjtools</artifactId>
+		</dependency>
+
+		<!--junit-->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+	</dependencies>
+</project>
