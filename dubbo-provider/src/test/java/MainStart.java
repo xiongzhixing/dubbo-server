@@ -1,4 +1,3 @@
-package com.xzx.provider;
 
 import org.apache.dubbo.container.Main;
 
